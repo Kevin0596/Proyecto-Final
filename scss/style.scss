@@ -1,0 +1,14 @@
+@import "../scss/sass2/variables/variables";
+@import "../scss/sass2/mixins";
+@import "../scss/sass2/extend";
+@import "partials/contaco";
+@import "partials/galeria";
+@import "partials/general";
+@import "partials/index";
+@import "partials/servicios";
+@import "partials/ubicacion";
+
+* {
+    margin: 0;
+    padding: 0;
+}

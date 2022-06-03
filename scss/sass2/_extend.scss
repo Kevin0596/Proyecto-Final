@@ -1,0 +1,19 @@
+@import "../sass2/variables/variables";
+
+
+.header{
+    background-color:$pink;
+    width: $ancho;
+    font-family: $tipo-de-letra;
+    font-size: $size;
+}
+
+
+
+footer{
+    
+    font-family: $tipo-de-letra;
+    font-size: $size;
+    color: $texto ;
+}
+

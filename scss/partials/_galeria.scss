@@ -1,0 +1,114 @@
+@import "../sass2/variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+.carrusel {
+    font-size: 45px;
+    text-align: center;
+    background-image: url(../multimedia/imag/camara.jpg);
+    color: azure;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+
+.sss {
+    width: 80%;
+    margin: auto;
+    display: block;
+
+}
+
+@media screen and (max-width: 390px) {
+
+
+
+
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carrusel {
+        font-size: 22px;
+        background-image: radial-gradient(rgb(254, 89, 89), black);
+    }
+
+    .sss {
+        width: 100%;
+    }
+
+    .img-redes {
+        font-size: 19px;
+    }
+
+    .copi {
+        text-align: center;
+        font-size: 11px;
+
+    }
+
+    .footers-galeria {
+        width: 100%;
+
+    }
+
+    .footerss {
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 55px;
+
+    }
+}
+
+@media screen and (max-width: 779px) {
+
+
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carrusel {
+        font-size: 35px;
+    }
+
+    .sss {
+        width: 100%;
+    }
+
+    .img-redes {
+        font-size: 19px;
+    }
+
+    .copi {
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    .footers-galeria {
+        width: 100%;
+
+    }
+
+    .footerss {
+
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 55px;
+    }
+
+
+
+
+
+}

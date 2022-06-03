@@ -1,0 +1,136 @@
+@import "../sass2/variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+.be {
+    font-size: 35px;
+}
+
+.banner {
+    width: 80%;
+    margin: 12px;
+
+}
+
+.contenido {
+    text-align: center;
+}
+
+.as {
+    @include planilla (as);
+}
+
+.bs {
+    @include planilla (bs);
+}
+
+.cs {
+    @include planilla (cs);
+}
+
+
+.ds {
+    @include planilla (ds);
+}
+
+@keyframes as {
+
+    10% {
+        background-image: url(../multimedia/imag/masajes-730x487-1.webp);
+    }
+
+}
+
+h2 {
+    background-color: #f7dd8594;
+}
+
+h1 {
+    background-image: radial-gradient(white, rgba(255, 230, 140, 0.653));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .be {
+        font-size: 25px;
+    }
+
+    h1 {
+        background-image: radial-gradient(white, rgba(255, 230, 140, 0.653));
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-image: radial-gradient(rgb(65, 249, 218), white);
+
+
+    }
+
+    h2 {
+        background-color: #eda45b94;
+    }
+
+    .camilla {
+        width: 100%;
+
+    }
+
+    .as {
+        border: #000000 3px solid;
+        margin: 10px;
+        background-image: url(../multimedia/imag/masajes-730x487-1.webp);
+        font-size: 13px;
+        font-weight: 900;
+        animation: as;
+        animation-duration: 8s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .bs {
+        border: #000000 3px solid;
+        margin: 10px;
+        background-image: url(../multimedia/imag/masajes-730x487-1.webp);
+        font-size: 13px;
+        font-weight: 900;
+        animation: as;
+        animation-duration: 8s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .cs {
+        border: #000000 3px solid;
+        margin: 10px;
+        background-image: url(../multimedia/imag/masajes-730x487-1.webp);
+        font-size: 13px;
+        font-weight: 900;
+        animation: as;
+        animation-duration: 8s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+
+    .ds {
+        border: #000000 3px solid;
+        margin: 10px;
+        background-image: url(../multimedia/imag/masajes-730x487-1.webp);
+        font-size: 13px;
+        font-weight: 900;
+        animation: as;
+        animation-duration: 8s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+
+
+
+}
