@@ -1,603 +1,174 @@
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.contes {
-  text-align: center;
-  color: #fdfdfdab;
-  background-color: #6161612d; }
-
-fieldset {
-  border: 5px solid black;
-  background-image: radial-gradient(pink, white);
-  text-align: center;
-  margin: 15px;
-  padding: 10px; }
-
-.area {
-  width: 80%;
-  height: 300px;
-  resize: none; }
-
-legend {
-  font-size: 35px;
-  color: #000101; }
-
-.formu {
-  padding: 10px; }
-
-input {
-  font-size: 20px;
-  margin-bottom: 15px; }
-
-.relleno {
-  font-size: 20px;
-  border-radius: 10px;
-  border-color: rgba(0, 0, 0, 0.456);
-  padding: 10px;
-  margin: 0px; }
-
-select {
-  font-size: 20px;
-  border-radius: 29px;
-  border-color: black; }
-
-.aceptar {
-  font-size: 15px; }
-
-.detalles {
-  color: black;
-  font-size: 22px; }
-
-@media screen and (max-width: 320px) {
-  .contes {
-    font-size: 19px;
-    background-color: #ffffff; }
-  .area {
-    width: 65%; }
-  fieldset {
-    border: 5px solid black;
-    background-image: radial-gradient(#d679f5, #e7e5e5);
-    text-align: center; }
-  .aceptar {
-    font-size: 5px; }
-  .dudas {
-    font-size: 10px; }
-  legend {
-    font-size: 10px;
-    color: #000101; }
-  input {
-    font-size: 8px;
-    margin-bottom: 1px; }
-  .relleno {
-    font-size: 8px;
-    border-radius: 8px;
-    border-color: rgba(0, 0, 0, 0.456);
-    padding: 10px;
-    margin: 0px; }
-  select {
-    font-size: 8px;
-    border-radius: 5px;
-    border-color: black; }
-  .aceptar {
-    font-size: 15px; }
-  .detalles {
-    color: black;
-    font-size: 10px; }
-  .conte {
-    font-size: 15px; }
-  .footerss {
-    width: 65%; } }
-
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.carrusel {
-  font-size: 45px;
-  text-align: center;
-  background-image: url(../multimedia/imag/camara.jpg);
-  color: azure;
-  justify-content: center;
-  margin: auto;
-  display: block; }
-
-.sss {
-  width: 80%;
-  margin: auto;
-  display: block; }
-
-@media screen and (max-width: 390px) {
-  .body {
-    width: 100%;
-    height: 100%; }
-  .carrusel {
-    font-size: 22px;
-    background-image: radial-gradient(#fe5959, black); }
-  .sss {
-    width: 100%; }
-  .img-redes {
-    font-size: 19px; }
-  .copi {
-    text-align: center;
-    font-size: 11px; }
-  .footers-galeria {
-    width: 100%; }
-  .footerss {
-    list-style: none;
-    display: flex;
-    flex-flow: nowrap;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 55px; } }
-
-@media screen and (max-width: 779px) {
-  .body {
-    width: 100%;
-    height: 100%; }
-  .carrusel {
-    font-size: 35px; }
-  .sss {
-    width: 100%; }
-  .img-redes {
-    font-size: 19px; }
-  .copi {
-    text-align: center;
-    font-size: 22px; }
-  .footers-galeria {
-    width: 100%; }
-  .footerss {
-    list-style: none;
-    display: flex;
-    flex-flow: nowrap;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 55px; } }
-
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
+/* Estilos Generales */
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  resize: none; }
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
 
 body {
-  background-image: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  width: 100%; }
+  background-image: url('../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-nav {
-  display: inline-block; }
-  nav nav ul li a {
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: #010304;
-    width: max-content;
-    list-style: none;
-    display: flex; }
-  nav li a.active,
-  nav li a:hover {
-    list-style: none;
-    background-image: radial-gradient(#f8148a, #0a0a0a);
-    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+/* Encabezado */
+.header {
+  background-color: #f8b400; /* Color dorado suave */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-footer {
-  background-color: rgba(0, 0, 0, 0.948);
-  display: flex;
-  flex-flow: nowrap;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%; }
-  footer a {
-    text-decoration: none;
-    margin: 40px;
-    color: azure;
-    list-style: none;
-    list-style: none;
-    width: 100%; }
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
 
-.copi {
-  color: aliceblue; }
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+}
 
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: #f8a600; /* Color dorado más intenso */
+  border-radius: 5px;
+}
 
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.be {
-  font-size: 35px; }
-
+/* Banner */
 .banner {
-  width: 80%;
-  margin: 12px; }
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}
 
+/* Contenido Principal */
 .contenido {
-  text-align: center; }
-
-.as {
-  border: #000000 3px solid;
-  margin: 10px;
-  background-image: url(../multimedia/imag/sss.jfif);
-  font-size: 25px;
-  padding: 15px;
-  animation: as;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation-duration: 7s;
-  animation-delay: 5s;
-  animation-iteration-count: infinite; }
-
-.bs {
-  border: #000000 3px solid;
-  margin: 10px;
-  background-image: url(../multimedia/imag/sss.jfif);
-  font-size: 25px;
-  padding: 15px;
-  animation: as;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation-duration: 7s;
-  animation-delay: 5s;
-  animation-iteration-count: infinite; }
-
-.cs {
-  border: #000000 3px solid;
-  margin: 10px;
-  background-image: url(../multimedia/imag/sss.jfif);
-  font-size: 25px;
-  padding: 15px;
-  animation: as;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation-duration: 7s;
-  animation-delay: 5s;
-  animation-iteration-count: infinite; }
-
-.ds {
-  border: #000000 3px solid;
-  margin: 10px;
-  background-image: url(../multimedia/imag/sss.jfif);
-  font-size: 25px;
-  padding: 15px;
-  animation: as;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation-duration: 7s;
-  animation-delay: 5s;
-  animation-iteration-count: infinite; }
-
-@keyframes as {
-  10% {
-    background-image: url(../multimedia/imag/masajes-730x487-1.webp); } }
-
-h2 {
-  background-color: #f7dd8594; }
+  text-align: center;
+  padding: 20px;
+}
 
 h1 {
-  background-image: radial-gradient(white, rgba(255, 230, 140, 0.653));
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+  font-size: 36px;
+  color: #444;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
 
-@media screen and (max-width: 390px) {
-  .be {
-    font-size: 25px; }
-  h1 {
-    background-image: radial-gradient(white, rgba(255, 230, 140, 0.653));
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-image: radial-gradient(#41f9da, white); }
-  h2 {
-    background-color: #eda45b94; }
-  .camilla {
-    width: 100%; }
-  .as {
-    border: #000000 3px solid;
-    margin: 10px;
-    background-image: url(../multimedia/imag/masajes-730x487-1.webp);
-    font-size: 13px;
-    font-weight: 900;
-    animation: as;
-    animation-duration: 8s;
-    animation-delay: 5s;
-    animation-iteration-count: infinite; }
-  .bs {
-    border: #000000 3px solid;
-    margin: 10px;
-    background-image: url(../multimedia/imag/masajes-730x487-1.webp);
-    font-size: 13px;
-    font-weight: 900;
-    animation: as;
-    animation-duration: 8s;
-    animation-delay: 5s;
-    animation-iteration-count: infinite; }
-  .cs {
-    border: #000000 3px solid;
-    margin: 10px;
-    background-image: url(../multimedia/imag/masajes-730x487-1.webp);
-    font-size: 13px;
-    font-weight: 900;
-    animation: as;
-    animation-duration: 8s;
-    animation-delay: 5s;
-    animation-iteration-count: infinite; }
-  .ds {
-    border: #000000 3px solid;
-    margin: 10px;
-    background-image: url(../multimedia/imag/masajes-730x487-1.webp);
-    font-size: 13px;
-    font-weight: 900;
-    animation: as;
-    animation-duration: 8s;
-    animation-delay: 5s;
-    animation-iteration-count: infinite; } }
+h2 {
+  font-size: 28px;
+  color: #f8b400;
+  margin: 20px 0;
+}
 
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
 
-footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.servicio {
-  background-image: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg); }
-
-.tabla {
-  border: #000000 5px solid;
-  text-align: center;
-  width: 95%;
-  height: 410px;
-  margin: 10px;
-  margin-left: 20px;
+.col {
   padding: 15px;
-  justify-content: center;
-  animation: tabla;
-  animation-duration: 5s;
-  animation-delay: 6s;
-  animation-iteration-count: infinite; }
+}
 
-.tip {
-  text-align: center;
-  background-image: radial-gradient(#f1f1f1, rgba(255, 222, 103, 0.653), black);
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation: tip;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite; }
-
-.servi {
-  font-size: 20px;
-  list-style: none;
-  border: #000000 solid 4px;
-  margin: 30px;
-  background-image: radial-gradient(#0885fa, rgba(225, 219, 226, 0.932), rgba(23, 45, 248, 0.534)); }
-
-.item {
-  font-size: 25px;
-  border: #000000 solid 6px;
-  background-image: radial-gradient(#eaeef3, rgba(199, 90, 232, 0.932), rgba(0, 0, 0, 0.932)); }
-
-.horarios {
-  color: #000000;
-  font-size: 30px;
-  background-color: #bebebed7;
-  text-align: center; }
-
-.ser {
-  color: whitesmoke; }
-
-.copias {
-  color: azure; }
-
-@keyframes tabla {
-  10% {
-    background-color: #ed5b86; } }
-
-@keyframes tip {
-  50% {
-    font-size: 40px;
-    background-image: radial-gradient(#90e9f5, rgba(255, 255, 255, 0.932), rgba(45, 167, 255, 0.932)); } }
-
-@media screen and (max-width: 390px) {
-  .servicio {
-    background-image: url(/multimedia/imag/ff.jpg);
-    width: 100%; }
-  nav ul li a {
-    font-size: 12px;
-    padding: 7px 13px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: #010304;
-    width: max-content; }
-  .tabla {
-    border: #000000 5px solid;
-    text-align: center;
-    width: 80%;
-    height: 500px;
-    margin: 25px;
-    justify-content: center;
-    flex-direction: column;
-    animation: tabla;
-    animation-duration: 5s;
-    animation-delay: 6s;
-    animation-iteration-count: infinite; }
-  .tip {
-    text-align: center;
-    background-image: radial-gradient(whitesmoke, rgba(48, 47, 47, 0.653));
-    font-size: 13px; }
-  @keyframes tabla {
-    25% {
-      background-color: #11f2b6; } }
-  .servi {
-    font-size: 10px;
-    list-style: none;
-    border: #000000 solid 4px;
-    margin: 30px;
-    background-image: linear-gradient(#f7f4f4, #4b7c8b); }
-  .item {
-    font-size: 25px;
-    border: #000000 solid 6px;
-    background-image: radial-gradient(#f9ed00, rgba(252, 252, 252, 0.664)); }
-  .horarios {
-    color: #000000;
-    font-size: 15px;
-    background-color: #ed5b876a;
-    text-align: center; }
-  .ser {
-    color: whitesmoke; }
-  .copias {
-    color: azure; } }
-
-@media screen and (max-width: 768px) {
-  .servicio {
-    background-image: url(../multimedia/imag/ff.jpg);
-    width: 100%; }
-  nav ul li a {
-    font-size: 10px;
-    padding: 7px 13px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: #010304;
-    width: max-content; }
-  .tabla {
-    border: #000000 5px solid;
-    text-align: center;
-    width: 80%;
-    height: 400px;
-    margin: 25px;
-    justify-content: center;
-    flex-direction: column; }
-  .tip {
-    text-align: center;
-    background-image: radial-gradient(whitesmoke, rgba(48, 47, 47, 0.653));
-    font-size: 15px; }
-  @keyframes tip {
-    50% {
-      font-size: 20px;
-      background-image: radial-gradient(#000000dc, rgba(21, 42, 43, 0.932));
-      color: white; } }
-  .servi {
-    font-size: 15px;
-    list-style: none;
-    border: #000000 solid 4px;
-    margin: 20px;
-    background-color: azure; }
-  .item {
-    font-size: 10px;
-    border: #000000 solid 6px;
-    background-color: #ed5b86; }
-  .horarios {
-    color: #000000;
-    font-size: 15px;
-    background-color: #ed5b876a;
-    text-align: center; }
-  .ser {
-    color: whitesmoke; }
-  .copias {
-    color: azure; } }
-
-.header, header {
-  background-color: #ed5b86;
-  width: 100%;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px; }
-
+/* Footer */
 footer {
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: azure; }
-
-.ubicacions {
-  background: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; }
-
-.tittle-tres {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  color: azure;
-  font-size: 50px;
-  line-height: 50px;
-  margin-top: 0px;
-  background-image: url(../multimedia/imag/ubicacion.webp); }
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
 
-iframe {
-  width: 80%;
-  height: 700px;
+.footer a {
+  color: #f8b400;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .col {
+    padding: 10px;
+  }
+}
+
+/* Estilos adicionales para tarjetas y secciones */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: #f8b400;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
   margin: 20px auto;
-  background: url(../multimedia/imag/ff.jpg);
-  text-align: center; }
+  max-width: 600px;
+}
 
-.dire {
-  font-size: 25px;
-  color: azure;
-  text-align: center;
-  background-color: #ed5b8784; }
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
 
-@media screen and (max-width: 328px) {
-  .ubicacions {
-    background: url(../multimedia/imag/imagem.jpg); }
-  .tittle-tres {
-    text-align: center;
-    color: azure;
-    font-size: 15px;
-    line-height: 50px;
-    background-color: #9700ceab; }
-  .dire {
-    font-size: 15px;
-    color: azure;
-    text-align: center;
-    background-color: #ed5b8784; }
-  iframe {
-    width: 70%;
-    background: url(../multimedia/imag/imagem.jpg); } }
+form input[type="submit"] {
+  background-color: #f8b400;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
-* {
-  margin: 0;
-  padding: 0; }
+form input[type="submit"]:hover {
+  background-color: #f8a600;
+}
